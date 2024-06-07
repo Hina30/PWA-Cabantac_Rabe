@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #424769; 
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #ffd153;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff; 
+    color: #424769; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #2d3250;
+    padding: 12px;
+    text-align: center; 
+}
+
+th {
+    background-color: #424769;
+    color: #ffd153; 
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+    margin: 20px auto;
+    width: 100%; 
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #2d3250;
+    border-radius: 10px;
+}
+
+input[type="date"],
+input[type="text"] {
+    background-color: #ffffff; 
+    color: #424769; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; 
+    margin: 5px;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+button {
+    padding: 8px 16px; 
+    border: 1px solid #6370c5;
+    border-radius: 5px;
+    background-color: #ffd153; 
+    color: #010622; 
+    cursor: pointer;
+    width: auto;
+    margin-top: 10px;
+    align-self: center;
+}
+
+#schedule-table {
+    margin-top: 20px;
+}

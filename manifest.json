@@ -1,0 +1,36 @@
+{
+    "lang": "en-us",
+    "name": "Travel Schedule App",
+    "short-name": "Travel Schedule",
+    "description": "A basic Travel Schedule application that can list Schedule for Travels",
+    "start_url": "/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "trav.png",
+            "sizes": "200x200"
+        }
+    ],
+    "screenshots":[
+        {
+            "src": "ss1.png",
+            "type": "png",
+            "sizes": "1886x432",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "ss2.png",
+            "type": "png",
+            "sizes": "1886x856",
+            "form_factor": "wide"
+        }
+    ],
+    "hosting": {
+        "site": "Travel_Schedule-app",
+        "public": "public"
+        
+    }
+}
